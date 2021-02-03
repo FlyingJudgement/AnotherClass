@@ -306,9 +306,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4537254016290673891, guid: a13d32a5bf8e5ee499684e5f03518e98, type: 3}
+      propertyPath: m_Text
+      value: '0.0
+
+        0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927542064008188952, guid: a13d32a5bf8e5ee499684e5f03518e98, type: 3}
+      propertyPath: gridSize
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6999527476989286364, guid: a13d32a5bf8e5ee499684e5f03518e98, type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: '0.0
+
+        0'
       objectReference: {fileID: 0}
     - target: {fileID: 8655335918113559289, guid: a13d32a5bf8e5ee499684e5f03518e98, type: 3}
       propertyPath: m_RootOrder

@@ -4,17 +4,26 @@ using UnityEngine;
 
 
 [ExecuteInEditMode]
-
+[SelectionBase]
 public class GridSnaper : MonoBehaviour
 {
+    TextMesh textMesh;
+    [Range(1f, 10)] [SerializeField] float gridSize;
     Vector3 snapPos;
     void Update()
     {
-        snapPos.x = Mathf.RoundToInt(transform.position.x / 10)*10f;
-        snapPos.y = 0;
-        snapPos.z = Mathf.RoundToInt(transform.position.y / 10)*10f;
+        snapPos.x = Mathf.RoundToInt(transform.position.x / gridSize) * gridSize;
+        snapPos.y = Mathf.RoundToInt(transform.position.y / gridSize) * gridSize;
+        snapPos.z = Mathf.RoundToInt(transform.position.z / gridSize) * gridSize;
 
         transform.position = new Vector3(snapPos.x, snapPos.y, snapPos.z);
-
+        
+        textMesh = GetComponentInChildren<TextMesh>();
+        string cordinates = 
+            (snapPos.x /gridSize + "." 
+            + snapPos.z / gridSize + 
+            System.Environment.NewLine + snapPos.y / gridSize);
+        textMesh.text = cordinates;
+        gameObject.name = cordinates;
     }
 }
