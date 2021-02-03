@@ -312,10 +312,6 @@ PrefabInstance:
 
         0'
       objectReference: {fileID: 0}
-    - target: {fileID: 6927542064008188952, guid: a13d32a5bf8e5ee499684e5f03518e98, type: 3}
-      propertyPath: gridSize
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 6999527476989286364, guid: a13d32a5bf8e5ee499684e5f03518e98, type: 3}
       propertyPath: m_Name
       value: '0.0
