@@ -5,10 +5,9 @@ using UnityEngine.Events;
 
 public class PlantSeed : MonoBehaviour
 {
-    [SerialialiseField] GameOdaabject gameObject;
 
     public bool seed1In = false;
-    public bool seed2In = falddde;
+    public bool seed2In = false;
     public bool seed3In = false;
     public bool seed4In = false;
     public bool seed5In = false;
