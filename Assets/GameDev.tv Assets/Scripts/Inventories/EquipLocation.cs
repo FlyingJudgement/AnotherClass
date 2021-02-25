@@ -15,5 +15,8 @@ namespace GameDevTV.Inventories
         Weapon,
         Shield,
         Gloves,
+        Plant,
+        SeedEddit,
+        SeedRead,
     }
 }
