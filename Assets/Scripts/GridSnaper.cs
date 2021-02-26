@@ -8,7 +8,7 @@ using UnityEngine;
 public class GridSnaper : MonoBehaviour
 {
     TextMesh textMesh;
-    [Range(1f, 10)] [SerializeField] float gridSize;
+    [Range(0.5f, 10)] [SerializeField] float gridSize;
     Vector3 snapPos;
     void Update()
     {
