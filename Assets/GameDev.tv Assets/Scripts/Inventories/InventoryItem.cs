@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,6 +27,8 @@ namespace GameDevTV.Inventories
         [SerializeField] Pickup pickup = null;
         [Tooltip("If true, multiple items of this type can be stacked in the same inventory slot.")]
         [SerializeField] bool stackable = false;
+      //  [SerializeField] bool singingPlant = false;
+       // [SerializeField] SoundSlotUI uIsound;
 
         // STATE
         static Dictionary<string, InventoryItem> itemLookupCache;
